@@ -1,0 +1,45 @@
+register===>
+1,ADMIN
+{
+    "username":"sindhuja@gmail.com",
+    "firstname":"sindhuja",
+    "lastname":"ganesan",
+    "type":"admin",
+    "password":"sindhuja"
+}
+
+2, MANAGER
+{
+    "username":"Siiva@gmail.com",
+    "firstname":"Siivapranav",
+    "lastname":"Rajarajan",
+    "type":"manager",
+    "password":"siiva"
+}
+
+3, Employee ====>view only
+
+{
+    "username":"raja@gmail.com"
+    "firstname":"raja",
+    "lastname":"rajan",
+    "type":"Employee",
+    "password":"raja"
+}
+
+4, Employee====>view and edit and delete
+{
+    "username":"nivas@gmail.com",
+    "firstname":"nivas",
+    "lastname":"sree",
+    "type":"Employee",
+    "password":"nivas"
+}
+
+http://localhost:4000/register==> register the employees(post)
+http://localhost:4000/login===> login for employee and manager with type(post)
+http://localhost:4000/service/sai@gmail.com==> service created by manager(post)
+http://localhost:4000/service/nivas@gmail.com/5f1b3797de0ce118b4888f4b===> edit the service details (put)
+http://localhost:4000/service/nivas@gmail.com/5f1e5f3656a6b01b488b0f46===> delete the service details(delete)
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjFhZWZlZTczZDliNTFhMmNhODIyZTEiLCJpYXQiOjE1OTU2MTg1NTEsImV4cCI6MTU5NTYyMjE1MX0.ZKg5DALEJk7BunocaJT08LQdZKz3RvJCw6Z3RnsS8qo
